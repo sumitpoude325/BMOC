@@ -18,10 +18,12 @@ nav {
   background-color: #15a005;
   display: flex;
   border-bottom: 2px solid black;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 a {
   text-decoration: none;
+  margin-left: 20px;
+  margin-right: auto;
 }
 a:active {
   box-shadow: 3px 2px #2f3f4f;
@@ -84,4 +86,25 @@ form {
 }
 #sub:active {
   box-shadow: 3px 2px #2f3f4f;
+}
+label {
+  position: relative;
+  top: 1vh;
+  left: 30vw;
+}
+input[type="search"] {
+  width: 300px;
+  border-radius: 30px;
+  height: 25px;
+  text-align: center;
+}
+button {
+  width: 5vw;
+  border-radius: 30px;
+  font-family: serif;
+  text-align: center;
+  font-weight: bold;
+}
+button:active {
+  box-shadow: 2px 1px black;
 }
